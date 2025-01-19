@@ -1,3 +1,86 @@
 body {
-    margin: 0;
+    margin: 0 auto; 
+    font-family: "Smythe", serif;
+    font-size: 1rem;
+    max-width: 600px;
+    width: 600px;
 } 
+
+.hero {
+    position: relative;
+    width: 600px;
+    height: 170px;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+}
+
+h1, h2 {
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    left: 45px;
+}
+
+h1 {
+    top: 10px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    top: 70px;
+    font-size: 1.5rem;
+}
+
+.menu-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    max-height: 200px;
+    margin: 10px auto;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.menu-icon{
+    font-size: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu-info {
+    margin-right: auto;
+}
+
+.menu-title {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.menu-description {
+    margin-top: 0;
+    color: #8b8b8b;
+}
+
+.menu-price {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#menu-add-btn {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    font-family: "Inter", serif;
+    font-weight: 200;
+    color: #3c3c3c;
+}
